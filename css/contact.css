@@ -1,0 +1,144 @@
+.contact__self h3,
+.contact__regist h3 {
+    font-size: 2rem;
+    color: #000;
+}
+
+.contact__self p,
+.contact__regist p {
+    font-size: 1.4rem;
+}
+
+.contact__self-list {
+    list-style: none;
+}
+
+.contact__self-link {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.contact__self-item:first-child .contact__self-link {
+    font-weight: 500;
+}
+
+.contact__self-link:hover {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.contact__regist form input {
+    margin: 1rem 0;
+    padding: 0.8rem 1rem;
+    border-radius: 0.2rem;
+    outline: none;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact__regist form textarea {
+    width: 100%;
+    padding: 0.6rem 1.4rem;
+    font-size: 1.4rem;
+    height: 10rem;
+    outline: none;
+    border-radius: .2rem;
+    margin-top: 1rem;
+}
+
+.mb-50 {
+    margin-bottom: 3rem;
+}
+
+.contact__regist form button {
+    font-size: 1.4rem;
+    background: var(--primary-color);
+    padding: 0.6rem 1.4rem;
+    outline: none;
+    color: var(--white-color);
+    border-radius: 0.2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.contact__regist form button:hover {
+    opacity: 0.8;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.pc {
+    position: relative;
+}
+
+.menu__nav {
+    position: absolute;
+    top: -1.4rem;
+    left: 0;
+    z-index: 10;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    display: none;
+}
+
+.menu__nav {
+    padding: 0;
+}
+
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+    padding-left: .15rem;
+}
+
+.menu__item-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.menu__item:hover {
+    background: var(--primary-color);
+}
+
+.menu__item:hover .menu__link {
+    color: var(--white-color);
+    background: var(--primary-color);
+    text-decoration: none;
+    fill: var(--white-color);
+}
+
+.menu__item--active .menu__link {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+.menu__link {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    display: block;
+    padding: 1rem 2.8rem;
+    text-decoration: none;
+    border-top: 1px solid #eff0f3;
+    background: var(--white-color);
+    background-clip: padding-box;
+    display: flex;
+    align-items: center;
+}
